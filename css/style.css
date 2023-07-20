@@ -2,19 +2,23 @@ body{
     border: 1px Dashed red ;
     background-color: #E8E8E8 ;
 }
+
+a-cont{
+    width: 1400px;
+
+}
+
 .a-tbdr{
     border: 1px Dashed green ;
 }
 header{
     height: 81px ;
-    width: 87% ;
-    margin-left:100px ;
-
+    width: 85.30% ;
+    margin:auto ;
 }
 main{
     height: 3650px ;
     top: 80px ;
-    margin: auto ;
 }
 .a-footer1{
     height: 259px ;
@@ -23,16 +27,28 @@ main{
     height: 117px ; 
 }
 .a-footer3{
-    height: 500px ;  
+    height: 593px ;  
 }
 .a-footer4{
-    height: 393px ;
+    height: 300px ;
 }
-@media (max-width: 1400px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl 
-        max-width: 1450px;
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 
 
+
+
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm 
+    max-width: 1438px;
+}
