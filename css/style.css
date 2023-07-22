@@ -6,7 +6,7 @@ body{
     border: 1px Dashed green ;
 }
 header{
-    height: 81px ;
+    min-height: 81px ;
     width: 93% ;
     margin:auto ;
 }
@@ -25,7 +25,7 @@ ul.a-menu > li :hover{
 }
 .a-submenu{
     width: 100px ;
-    display: none ; /* Hide */
+    display: none ; 
 } 
 main{
     height: 3650px ;
@@ -43,6 +43,11 @@ main{
 .a-footer4{
     height: 300px ; 
 }
+@media screen and (min-width: 480px) {
+    .a-form-col{
+        height: 50px ;
+    }
+  }
 
 @media (min-width: 1450px){
     .container, .container-lg, .container-md, .container-sm 
