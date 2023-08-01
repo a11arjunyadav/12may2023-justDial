@@ -89,6 +89,7 @@ main{
        color: #333 !important ;
     opacity: 0.5 !important ;
  }
+ 
  @media screen and (max-width: 576px){
     footer{
         position: fixed ;
