@@ -7,13 +7,20 @@ body{
 }
 header{
     min-height: 81px ;
-    width: 93% ;
+    width: 100% ;
     margin:auto ;
+}
+.m11{
+    height: 280px ;
+    border-color: 1px solid red ;
 }
 .row{
     width: 100% ;
     margin-left: 2px ;
     height: 100% ;
+    .a-tbdr{
+        border: 1px solid white ;
+    }
 }
 ul.a-menu > li :hover{
     background-color: #EBEBEB ;
