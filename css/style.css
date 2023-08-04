@@ -3,18 +3,71 @@ body{
     background-color: #E8E8E8 ;
 }
 .a-tbdr{
-    border: 1px Dashed green ;
+   border: 1px Dashed red !important ;
 }
 header{
     min-height: 81px ;
     width: 100% ;
     margin:auto ;
+    z-index: 10000;
 }
-.m11{
-    height: 280px ;
+.a-ccp,.a-ccn{
+    visibility: visible ;
+}
+.a-mainslider:hover{
+    cursor: pointer ;
+}
+.a-mainslider .a-ccp,.a-mainslider .a-ccn{
+    background-color: rgba(0,0,0,0.8);
+    width: 30px ;
+    height: 30px ;
+    border-radius: 30px ;
+    visibility: hidden ;
+}
+.a-mainslider:hover .a-ccp,.a-mainslider:hover .a-ccn{
+    visibility: visible ;
+}
+.a-ccp{
+    left: 15px ;
+}
+.a-ccn{
+    right: 15px ;
+}
+.a-mainslider img{
+    height: 275px ;
+    width: 100% ;
+}
+
+.carousel-indicators button{
+    width: 6px !important ;
+    height: 6px !important ;
+}
+.a-m11{
+    height: 120px ;
     border-color: 1px solid red ;
 }
-.row{
+.a-orange{
+    background-color: #FF7D18 ;
+    height: 100% ;
+
+}
+.a-m22{
+    min-height: 275px ;
+}
+ul.a-m33-icon > li > a:hover{
+    background-color: #fff ;
+}
+ul.a-m33-icon > li a > img{
+    width: 65px ;
+    height: 65px ;
+}
+ul.a-m33-icon > li > a:hover > img{
+    box-shadow: 0px  0px  5px  5px  rgba(0, 0, 0, 0.05) ;
+}
+.a-m44{
+    height: 540px;
+}
+.row{ 
     width: 100% ;
     margin-left: 2px ;
     height: 100% ;
