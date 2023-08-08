@@ -43,7 +43,7 @@ header{
     height: 6px !important ;
 }
 .a-m11{
-    height: 120px ;
+    min-height: 120px ;
     border-color: 1px solid red ;
 }
 .a-orange{
@@ -52,7 +52,7 @@ header{
 
 }
 .a-m22{
-    min-height: 275px ;
+    min-height: 240px !important;
 }
 ul.a-m33-icon > li > a:hover{
     background-color: #fff ;
@@ -150,6 +150,43 @@ main{
     opacity: 0.5 !important ;
  }
  
+ .a-animation{
+    animation-name: myanimation ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+ }
+.a-xyz > img{
+    transform-origin: right bottom ;
+    transform: scale3d(1,1,1) ;
+    transition: all linear 0.2s ;
+}
+.a-xyz:hover > img{
+    transform: scale3d(1.1,1.1,1) ;
+}
+.a-xyz > span{
+    transform-origin:left bottom ;
+    transform: scale3d(1,1,1) ;
+    transition: all linear 0.2s ;
+}
+.a-xyz:hover > span{
+    transform: scale3d(1.1,1.1,1) ;
+}
+ @keyframes myanimation{
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-42px);
+    }
+    100%{
+        transform: translateY(-42px);
+    }
+ }
  @media screen and (max-width: 576px){
     footer{
         position: fixed ;
