@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Justdial - Local Search, Social, News, Videos, Shopping</title>
         <link rel="shortcut icon" href="https://static.127777.com/tools/img/favicon.ico" type="image/x-icon">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+                
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link href="./css/style.css" rel="stylesheet" />
@@ -139,6 +144,52 @@
               </div>
             </div>
           </div>
+
+          <!-- Modal -->
+        <div class="modal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="top:100px ;">
+            <div class="modal-content p-4">
+                <div class="modal-header border border-0">
+                    <div class="row m-0">
+                        <div class="col-3 ps-0 pe-4 d-flex align-items-center">
+                            <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd/jdlogosvg.svg" />
+                        </div>
+                        <div class="col-8 p-0">
+                            <div class="border-start ps-3">
+                                <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Welcome</h1>
+                                <p class="m-0">Login for a seamless experience</p>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="btn btn-light btn-close rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                   
+                    <form>
+                        <div class="mb-3">
+                            <div class="row m-0">
+                                <div class="col-1 d-flex align-items-center fs-5">
+                                    <label for="exampleInputEmail1" class="form-label ">+91</label>
+                                </div>
+                                <div class="col-11">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
         <div class="container ps-0 pe-0 bg-white  a-cont a-tbdr">
             <header class="border-bottom position-sticky top-0 bg-white a-tbdr">
                 <div class="row">
@@ -147,7 +198,7 @@
                             <img class="img-fluid w-50 pb-1 " src="./img/Logo.svg" />
                         </a>
                     </div>
-                    <div class="col-8 col-sm-3 a-form-col a-tbdr">
+                    <div class="col-4 col-sm-3 a-form-col a-tbdr">
                         <div class="d-block d-sm-none">
                           <ul class="nav float-end a-tnr mt-2">
                             <li class="nav-item"> 
@@ -188,8 +239,8 @@
                             <div class="nav-item d-none d-sm-block a-tbdr">
                                     <ul class="nav mt-2 ms-3 a-menu">    
                                 
-                                <li class="nav-item">
-                                    <a class="ps-2 pe-2 mt-1 mb-1 nav-link" href="#"><img class="me-1" src="./img/nav_language_icon.svg">English<img class="ms-1" src="./img/down_arrow5.svg">
+                                <li class="nav-item float-start">
+                                    <a class="ps-0 pe-0 mt-1 mb-1 nav-link" href="#"><img class="me-1" src="./img/nav_language_icon.svg">English<img class="ms-1" src="./img/down_arrow5.svg">
                                     </a>
                                     <ul class="nav flex-column a-submenu list-unstyled position-absolute border bg-white">
                                         <li class="nav-item">
@@ -211,23 +262,23 @@
                                 
                                 </li>
                                 <li class="nav-item">
-                                    <a class="ps-2 pe-2 mt-1 mb-1 nav-link text-secondary-emphasis" href="#">We are Hiring
+                                    <a class="ps-1 pe-1 mt-1 mb-1 nav-link text-secondary-emphasis" href="#">We are Hiring
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="ps-2 pe-2 mt-1 mb-1 nav-link text-secondary-emphasis" href="#">Invetor Relations</a>
+                                    <a class="ps-1 pe- mt-1 mb-1 nav-link text-secondary-emphasis" href="#">Invetor Relations</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="ps-2 pe-2 mt-1 mb-1 nav-link text-secondary-emphasis"><img class="me-1" src="./img/nav_advertise_icon.svg">Advertise</a>
+                                  <a class="ps-1 pe-1 mt-1 mb-1 nav-link text-secondary-emphasis"><img class="me-1" src="./img/nav_advertise_icon.svg">Advertise</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="ps-2 pe-2 mt-1 mb-1 nav-link text-secondary-emphasis"><img class="me-1" src="./img/nav_listing_icon.svg">Free Listing</a>
+                                    <a class="ps-1 pe-1 mt-1 mb-1 nav-link text-secondary-emphasis"><img class="me-1" src="./img/nav_listing_icon.svg">Free Listing</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="ps-1 mt-1 mb-1 nav-link text-secondary-emphasis"><img class="ms-1" src="./img/notify_icon.svg">A</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="ps-0 mt-1 mb-1 nav-link text-secondary-emphasis"><img src="./img/icon.svg">Login/Sign-UP</a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal2" class="ps-0 pe-3 mt-1 mb-1 nav-link text-secondary-emphasis"><img src="./img/icon.svg">Login/Sign-UP</a>
                                 </li>
                             </ul>
                         </div>
@@ -444,7 +495,7 @@
                         <div class="col-8 a-tbdr pt-2"> 
                             <div class="row m-0 a-tbdr" style="height:50px;overflow:hidden;">
                                 <div class="col-3 p-0 a-tbdr h-100">
-                                    <span class="fw-bold fs-2 text-dark">Search across</span>
+                                    <span class="fw-bold fs-3 text-dark">Search across</span>
                                 </div>
                                 <div class="col-9 p-0 a-tbdr h-100 a-rajan" style="height:50px;overflow:hidden;">
                                     <div class="a-animation pt-1">
@@ -452,8 +503,8 @@
                                         <span class="d-block fw-bold fs-3 text-dark">'3.3 Crore+’<span class="text-primary">Products & Services</span></span>
                                     </div>
                                 </div>
-                           </div>
-                            <form class="a-search-form">
+                            </div>
+                            <form class="a-search-for">
                                <div class="row m-0 a-tbdr">
                                     <div class="col-4 a-tbdr pt-2 ps-0 pe-0 ">
                                         <div class="a-inputA a-inputB p-2 border border-secondary rounded-2 d-flex flex-row align-items-center">
@@ -484,7 +535,7 @@
                             </form>
                         </div>
                     <div class="col-4 p-0 a-tbdr">
-                         <button class="btn btn-sm border border-dark text-dark position-relative float-end me-5 mt-4 fw-medium">Download App <img width="27" class="position-absolute border border-dark rounded-1 bottom-0  bg-white" style="bottom: -10px !important;" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/getapp_jd.gif" /></button>
+                         <button class="btn btn-sm border border-dark text-dark position-relative float-end me-5 mt-5 fw-medium">Download App <img width="27" class="position-absolute border border-dark rounded-1 bottom-0  bg-white" style="bottom: -10px !important;" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/getapp_jd.gif" /></button>
                     </div>
                 </div>
                 <div class="a-m22 d-none d-sm-block border">

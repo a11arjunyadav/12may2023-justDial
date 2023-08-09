@@ -1,6 +1,13 @@
 body{
+    font-family: 'Poppins', sans-serif;
     border: 1px Dashed red ;
     background-color: #E8E8E8 ;
+}
+.position-sticky{
+    z-index: 1000 !important;
+}
+#exampleModal2{
+    z-index: 10000 !important;
 }
 .a-scrollToTop{
     animation-name: stp;
