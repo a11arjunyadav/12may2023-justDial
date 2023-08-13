@@ -19,6 +19,7 @@
         <button class="btn a-scrollToTop bg-light rounded-circle position-fixed bottom-0 end-0 a-raj">
             <i class="fa-solid fa-chevron-up fa-sm"></i>
         </button>
+        <!-- Modal -->
         <div class="modal Hide" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
               <div class="modal-content">
@@ -41,7 +42,7 @@
                                     </a>
                             </div>
                             <div class="mt-4 ms-2">
-                                <button type="button" class="btn btn-outline-secondary rounded-pill ms-2 me-3">Saved</button>
+                                <button type="button" class="btn btn-outline-secondary rounded-pill rounded-pill ms-2 me-3">Saved</button>
                                 <button type="button" class="btn btn-outline-secondary rounded-pill me-3">Favorites</button>
                                 <button type="button" class="btn btn-outline-secondary rounded-pill me-3">Interests</button>
                             </div>
@@ -121,7 +122,11 @@
                             </div>
                             <div class="mb-3 border rounded">
                                 <div class="row m-0">
-                                    <div class="col-2 p-0"><button class="btn">+91</button></div>
+                                    <div class="col-2 p-0">
+                                        <div class="col-1 p-0 d-flex align-items-center fs-">
+                                            <label for="exampleInputEmail1" class="form-label m-0 text-dark fw-bold">+91</label>
+                                        </div>
+                                    </div>
                                     <div class="col-10 p-0"></div>
                                 </div>
                                 <input type="text" class="form-control shadow-none border-0" placeholder="Mobile Number" id="exampleInputPassword1">
@@ -144,7 +149,6 @@
               </div>
             </div>
           </div>
-
           <!-- Modal -->
         <div class="modal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" style="top:100px ;">
@@ -165,26 +169,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-body">
-                   
+                <div class="modal-body">                  
                     <form>
                         <div class="mb-3">
-                            <div class="row m-0">
-                                <div class="col-1 d-flex align-items-center fs-5">
-                                    <label for="exampleInputEmail1" class="form-label ">+91</label>
+                            <div class="row m-0 pb-2 border-2 border-bottom">
+                                <div class="col-1 p-0 d-flex align-items-center fs-">
+                                    <label for="exampleInputEmail1" class="form-label m-0 text-dark fw-bold">+91</label>
                                 </div>
-                                <div class="col-11">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div class="col-11 p-0">
+                                    <input type="text" class="form-control border-2 rounded-0 border-0 border-start shadow-none" id="exampleInputEmail1" placeholder="Mobile Number">
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                
+                            <div class="mb-3 text-center">
+                                <button type="submit" class="btn btn-lg btn-primary ps-5 pe-5" disabled>Login With OTP</button>
+                            </div>
+                    </form>                
                     </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn button-lg btn-outline-secondary me-3 rounded-pill" data-bs-dismiss="modal">Google</button>
+                    <button type="button" class="btn button-lg btn-outline-secondary ms-3 rounded-pill"><img class="imgfluid pe-2" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/fbicn.svg" />Facebook</button>
                 </div>
             </div>
             </div>

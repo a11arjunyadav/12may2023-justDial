@@ -3,10 +3,14 @@ body{
     border: 1px Dashed red ;
     background-color: #E8E8E8 ;
 }
+.a-img{
+    padding: 200px ;
+}
 .position-sticky{
     z-index: 1000 !important;
 }
 #exampleModal2{
+    backdrop-filter: blur(15px);
     z-index: 10000 !important;
 }
 .a-scrollToTop{
