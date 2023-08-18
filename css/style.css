@@ -313,6 +313,13 @@ main{
        color: #333 !important ;
     opacity: 0.5 !important ;
  }
+ .a-m66{
+    height: 500px ;
+    
+ }
+ .a-img{
+    background-attachment: #E8E8E8 !important;
+ }
  .a-input-img{
     float :right !important;
  }
@@ -353,6 +360,17 @@ main{
 }
 .a-xyz:hover .a-b2b{
     left: 0px !important ;
+    background-color: #E8E8E8 !important;
+    color: #55A3E3 !important;
+}
+.a-B{
+    background-color: #00AC7D !important;
+}
+.a-C{
+    background-color: #A5A6E3 !important;
+}
+.a-D{
+    background-color: #097C65 !important;
 }
 .a-xyz:hover .a-b2b{
     color: #0F7DD8;
